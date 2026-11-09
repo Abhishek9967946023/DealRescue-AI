@@ -1,366 +1,433 @@
-# DealRescue AI
+🚨 DealRescue AI
 
-### Turning past sales outcomes into better decisions for future deals.
+ **AI Deal Intelligence that remembers what worked — and what failed.**
 
-DealRescue AI is an AI-powered **Deal Intelligence Agent** that helps sales teams make better decisions by learning from previous deal experiences.
+> **Recall the past. Reflect on outcomes. Make a better decision.**
 
-Instead of treating every sales opportunity as a new problem, DealRescue uses **Hindsight memory** to recall relevant past experiences, understand what worked or failed, and use that knowledge to recommend the next best action.
+DealRescue AI is an **AI-powered Deal Intelligence Agent** built for sales teams. It uses **Hindsight memory** to recall previous sales experiences, understand their outcomes, and influence the next best action on a live deal.
 
-> **Recall → Reflect → Decide → Act → Retain → Recall**
+Unlike a traditional CRM that mainly stores what happened, DealRescue turns those outcomes into **reusable decision intelligence**.
 
 ---
 
-## 🚨 The Problem
+✨ The Idea
 
-Sales teams have access to large amounts of information:
+Sales teams already have years of experience hidden inside:
 
 - CRM records
-- Customer conversations
 - Sales notes
-- Previous objections
+- Customer objections
 - Pricing discussions
-- Competitor information
-- Successful and failed deal strategies
+- Competitor conversations
+- Won deals
+- Lost deals
+- Failed sales strategies
 
-But information alone is not enough.
+The problem is simple:
 
-A salesperson may remember that a similar customer previously rejected an immediate discount, but that experience is often buried in CRM notes or forgotten completely.
+> **The experience exists, but it is often unavailable at the exact moment a decision needs to be made.**
 
-As a result, teams repeatedly make the same mistakes.
+DealRescue closes that gap.
 
-### The real problem
+text
+       PAST SALES EXPERIENCE
+                │
+                ▼
+        ┌───────────────┐
+        │   HINDSIGHT   │
+        │    MEMORY     │
+        └───────┬───────┘
+                │
+          Recall + Reflect
+                │
+                ▼
+        ┌───────────────┐
+        │ NEXT BEST      │
+        │    ACTION      │
+        └───────┬───────┘
+                │
+                ▼
+          SALES OUTCOME
+                │
+                ▼
+             RETAIN
+                │
+                └──────────────► FUTURE DECISION
 
-**Sales teams don't just need more data. They need the right past experience at the moment of decision.**
 
----
+ 🧠 What Makes DealRescue Different?
 
-## 💡 Our Solution
+Most AI sales assistants work like:
 
-DealRescue converts previous sales outcomes into reusable decision intelligence.
 
-For every active deal, the system can:
+Question → AI → Answer
 
-1. Understand the current deal situation.
-2. Recall relevant previous experiences.
-3. Reflect on what worked and what failed.
-4. Generate a context-aware next best action.
-5. Record the actual outcome.
-6. Retain that outcome as a new experience.
-7. Use the experience in future decisions.
 
-This creates a continuous learning loop instead of a static CRM.
+DealRescue works like:
 
----
 
-## 🧠 Why Hindsight?
+Current Deal
+      ↓
+Recall Previous Experiences
+      ↓
+Reflect on What Worked / Failed
+      ↓
+Recommend Next Best Action
+      ↓
+Record the Outcome
+      ↓
+Retain the Experience
+      ↓
+Use It in Future Deals
+
+
+ **The system doesn't just generate an answer.**
+
+**It learns from sales experience.**
+
+
+🔥 Hindsight-Powered Learning
 
 Hindsight is the core memory layer of DealRescue.
 
-The system uses Hindsight to maintain experience-based memory rather than simply storing raw customer information.
+The system uses three important capabilities:
 
-### Hindsight provides three critical capabilities:
+| Capability | Purpose |
+|---|---|
+| 🧠 **Recall** | Find relevant previous sales experiences |
+| 🔍 **Reflect** | Understand why those experiences worked or failed |
+| 💾 **Retain** | Store new outcomes for future decisions |
 
-**Recall**
+This creates a continuous learning loop:
 
-Find relevant experiences from previous deals.
 
-**Reflect**
+RECALL
+   ↓
+REFLECT
+   ↓
+DECIDE
+   ↓
+ACT
+   ↓
+RETAIN
+   ↓
+RECALL
 
-Reason over those experiences and identify useful patterns.
 
-**Retain**
+🎯 Real Example
 
-Store new outcomes so future decisions can benefit from them.
+Imagine a customer says:
 
-### Example
+> **"Your competitor is cheaper. Can you give us a discount?"**
 
-A previous sales experience:
+A normal system might immediately suggest:
 
-> Offered a discount immediately → customer still stalled because ROI evidence was missing.
 
-Later, another customer says:
+Offer a targeted discount.
 
-> "Your competitor is cheaper. Can you give us a discount?"
 
-Instead of automatically recommending a discount, DealRescue can recall the previous failure and recommend:
+But DealRescue can recall a previous experience:
 
-> **Do not lead with a discount. Lead with measurable ROI, total cost of ownership, and the buyer's business outcome.**
+Previous Action:
+Immediate Discount
 
-That is the core value of the system.
+Outcome:
+❌ Failed / Stalled
 
----
+Reason:
+Customer required stronger ROI evidence.
 
-## 🔄 Continuous Learning Loop
+Hindsight reflects on that experience.
 
-```text
-                 ┌─────────────────┐
-                 │   CURRENT DEAL  │
-                 └────────┬────────┘
-                          ↓
-                 ┌─────────────────┐
-                 │     RECALL      │
-                 │ Hindsight Memory│
-                 └────────┬────────┘
-                          ↓
-                 ┌─────────────────┐
-                 │     REFLECT     │
-                 │ What worked?    │
-                 │ What failed?    │
-                 └────────┬────────┘
-                          ↓
-                 ┌─────────────────┐
-                 │      DECIDE     │
-                 │ Next Best Action│
-                 └────────┬────────┘
-                          ↓
-                 ┌─────────────────┐
-                 │       ACT       │
-                 │ Sales Action    │
-                 └────────┬────────┘
-                          ↓
-                 ┌─────────────────┐
-                 │     RETAIN      │
-                 │ Outcome Memory  │
-                 └────────┬────────┘
-                          │
-                          └──────────────→ RECALL
-```
+The recommendation changes to:
 
-The important difference is that the system **learns from outcomes** instead of simply generating another isolated AI response.
 
----
+❌ Don't lead with a discount.
 
-# 🎯 Key Features
+✅ Lead with:
+• Measurable ROI
+• Total Cost of Ownership
+• Business outcomes
+• Risk reduction
 
-## 1. Deal Intelligence
+ **The past experience changed the current decision.**
 
-Create and manage active sales opportunities with information such as:
+That is the core of DealRescue.
 
-- Deal name
+🧪 Learning Experiment
+
+DealRescue includes a dedicated experiment to demonstrate that memory actually affects decision-making.
+
+ BEFORE MEMORY
+
+
+Cold Start
+
+No relevant previous experience.
+
+→ Generic recommendation
+
+
+ HINDSIGHT
+
+
+RECALL
+   ↓
+Relevant experiences
+   ↓
+REFLECT
+   ↓
+Understand previous outcomes
+
+
+ AFTER MEMORY
+
+
+Memory-informed recommendation
+
+→ Decision changes
+
+
+The application explicitly shows:
+
+
+✓ HINDSIGHT LIVE
+✓ EXPERIENCES RECALLED
+✓ REFLECTION USED
+✓ DECISION CHANGED
+
+This makes the learning process observable instead of treating AI memory as a hidden feature.
+
+
+
+# 🏗️ System Architecture
+
+
+┌──────────────────────────────────────────┐
+│                  USER                    │
+│          Sales Rep / Sales Manager       │
+└────────────────────┬─────────────────────┘
+                     │
+                     ▼
+┌──────────────────────────────────────────┐
+│                FRONTEND                  │
+│          HTML • CSS • JavaScript         │
+│                                          │
+│  Deal Workspace • Decision Room          │
+│  Memory • Learning • Autopsy             │
+└────────────────────┬─────────────────────┘
+                     │
+                     ▼
+┌──────────────────────────────────────────┐
+│                FASTAPI                   │
+│             Python Backend               │
+│                                          │
+│  Deal Engine • Decision Engine           │
+│  Learning Engine • Outcome Engine        │
+└───────────────┬──────────────────────────┘
+                │
+                ▼
+       ┌─────────────────────┐
+       │      HINDSIGHT      │
+       │    MEMORY LAYER     │
+       └─────────┬───────────┘
+                 │
+       ┌─────────┴──────────┐
+       ▼                    ▼
+   RECALL                 REFLECT
+       │                    │
+       └─────────┬──────────┘
+                 ▼
+          NEXT BEST ACTION
+                 │
+                 ▼
+           DEAL OUTCOME
+                 │
+                 ▼
+              RETAIN
+                 │
+                 └──────────────► HINDSIGHT
+
+ 🖥️ Product Flow
+
+ 01 — Create a Deal
+
+Create a real sales opportunity with:
+
 - Company
 - Deal value
 - Sales stage
-- Owner
-- Deal summary
-- Customer objections
-- Business context
+- Deal owner
+- Current situation
+- Customer concerns
 
 ---
 
-## 2. Decision Engine
+## 02 — Decision Room
 
-The Decision Engine answers:
-
-> **"What should I do next?"**
-
-The system evaluates the current deal and generates a recommended next action.
-
-It also exposes the reasoning behind the recommendation through relevant memory and reflection.
-
----
-
-## 3. Hindsight Recall
-
-The system searches previous sales experiences for relevant evidence.
-
-The UI can show:
-
-- Number of recalled experiences
-- Positive outcomes
-- Negative outcomes
-- Relevant memories
-- Previous actions
-- Previous results
-
-This makes the AI recommendation explainable rather than a black box.
-
----
-
-## 4. Hindsight Reflect
-
-After recalling experiences, DealRescue reflects on them to determine:
-
-- What worked?
-- What failed?
-- Why did it fail?
-- What pattern is relevant to the current deal?
-- What should change in the next action?
-
----
-
-## 5. Learning Experiment
-
-One of the most important features is the ability to demonstrate whether memory actually changes the decision.
-
-### Before memory
-
-The system generates a cold-start recommendation.
-
-### After memory
-
-The system recalls relevant experiences and reflects on their outcomes.
-
-### Decision Delta
-
-The system compares both recommendations.
+Describe what is happening in the deal.
 
 Example:
 
-```text
-BEFORE MEMORY
+The customer says the competitor is cheaper
+and is asking for a discount.
 
-Consider a targeted commercial concession if needed.
-
-
-        ↓
+DealRescue evaluates the situation and prepares the next decision.
 
 
-HINDSIGHT RECALL + REFLECT
+## 03 — Hindsight Recall
+
+The system searches the experience memory for relevant situations.
+
+The interface exposes evidence such as:
 
 
-        ↓
+8 RELEVANT EXPERIENCES
+
+✓ ROI framing → Worked
+✓ TCO comparison → Worked
+✕ Discount-first → Failed
+✕ Discount without ROI → Stalled
 
 
-AFTER MEMORY
+## 04 — Hindsight Reflect
+
+The system analyzes those experiences and determines the useful pattern.
+
+Example:
+
+
+The previous discount-first approach
+did not address the customer's primary
+decision criteria.
+
+A value-based approach is more appropriate.
+
+## 05 — Next Best Action
+
+The Decision Engine converts that reflection into an actionable recommendation.
+
+
+NEXT BEST ACTION
 
 Do not lead with a discount.
-Lead with measurable ROI and TCO.
+
+Lead with measurable ROI,
+TCO and business outcomes.
 
 
-        ↓
+ 06 — Deal Autopsy
+
+After the action is taken, record the real outcome.
 
 
-DECISION CHANGED
-```
+FAILED
+WORKED
+WON
 
-This demonstrates that memory is not just displayed — **memory influences the decision.**
 
----
+The outcome becomes a new experience.
 
-## 6. Deal Autopsy
 
-After an action is taken, the team can record what actually happened.
 
-Possible outcomes include:
+ 07 — Retain
 
-- Failed
-- Worked
-- Won
+The experience is retained in Hindsight.
 
-The outcome becomes a new learning experience.
 
----
+Action
+   ↓
+Outcome
+   ↓
+Learning
+   ↓
+Hindsight Memory
 
-## 7. Retain Experience
+That experience can influence future deals.
 
-Important deal outcomes can be retained in Hindsight.
 
-For example:
+📊 Memory Impact
 
-```text
-Action:
-Offered discount immediately
+DealRescue makes the effect of memory visible.
 
-Outcome:
-Failed / stalled
+The system can expose:
 
-Reason:
-Customer required stronger ROI evidence
 
-Learning:
-Discount-first did not address the primary concern.
-```
+┌─────────────────────────────────────┐
+│          MEMORY IMPACT              │
+├─────────────────────────────────────┤
+│ Experiences             12          │
+│ Recalled                48          │
+│ Relevant                 8          │
+│ Positive Outcomes        1          │
+│ Negative Outcomes        4          │
+│ Reflection               ✓          │
+│ Decision Changed         ✓          │
+└─────────────────────────────────────┘
 
-That experience can later be recalled in another deal.
 
----
+The exact numbers vary by deal and memory state.
 
-## 8. Memory Impact
+The important signal is:
 
-DealRescue makes the impact of memory visible through metrics such as:
+> **Memory is actively influencing the decision.**
 
-- Experiences
-- Recalled memories
-- Relevant experiences
-- Positive outcomes
-- Negative outcomes
-- Reflection status
-- Decision changed
 
-This allows users and judges to see the learning process rather than simply trusting an AI-generated answer.
+# 🧩 Core Modules
 
----
+ 🏠 Deal Workspace
+Manage active sales opportunities.
 
-# 🏗️ Architecture
+### 🎯 Decision Engine
+Generate the next best action for the current situation.
 
-```text
-┌───────────────────────────────┐
-│           Frontend            │
-│       HTML / CSS / JS         │
-└───────────────┬───────────────┘
-                │
-                ↓
-┌───────────────────────────────┐
-│          FastAPI API          │
-│       Python Backend          │
-└───────────────┬───────────────┘
-                │
-       ┌────────┴────────┐
-       ↓                 ↓
-┌──────────────┐   ┌───────────────┐
-│ Deal Engine  │   │   Hindsight   │
-│              │   │ Memory Layer  │
-└──────────────┘   └───────┬───────┘
-                            │
-                  ┌─────────┴─────────┐
-                  ↓                   ↓
-              Recall               Reflect
-                  │                   │
-                  └─────────┬─────────┘
-                            ↓
-                    Next Best Action
-                            │
-                            ↓
-                       Deal Outcome
-                            │
-                            ↓
-                          Retain
-```
+### 🧠 Hindsight Memory
+Recall relevant sales experiences.
 
----
+### 🔍 Reflection Engine
+Understand the meaning and outcome of recalled experiences.
+
+### 🧪 Learning Experiment
+Compare decisions before and after memory.
+
+### 🩺 Deal Autopsy
+Capture what actually happened.
+
+### 💾 Retain Experience
+Turn outcomes into reusable future knowledge.
+
+### 📈 Memory Impact
+Show how experience changes decisions.
+
+
 
 # 🛠️ Technology Stack
 
 ### Frontend
 
-- HTML5
-- CSS3
-- JavaScript
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
 ### Backend
 
-- Python
-- FastAPI
-- Uvicorn
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 
-### AI / Memory
+### Memory / AI
 
-- Hindsight Cloud
-- Hindsight Recall
-- Hindsight Reflect
-- Hindsight Retain
+![Hindsight](https://img.shields.io/badge/Hindsight-AI%20Memory-6C5CE7?style=for-the-badge)
 
-### Data
+### Infrastructure
 
-- JSON-based deal data
-- Hindsight experience memory
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
----
+
 
 # 📁 Project Structure
 
-```text
-DealRescue-AI/
+
+dealrescue-ai/
 │
 ├── backend/
 │   ├── main.py
@@ -381,26 +448,15 @@ DealRescue-AI/
 │
 ├── docs/
 │
-├── .env.example
-├── .gitignore
-├── README.md
-├── Dockerfile
-├── docker-compose.yml
-└── Makefile
-```
+├── AUDIT_REPORT.md
+├── ARCHITECTURE.md
+├── DEMO_SCRIPT.md
 
----
 
-# ⚙️ Installation
+ ⚡ Quick Start
 
-## 1. Clone the repository
 
-```bash
-git clone <YOUR_GITHUB_REPOSITORY_URL>
-cd dealrescue-ai
-```
-
-## 2. Create a virtual environment
+## 2. Create virtual environment
 
 ### Windows
 
@@ -408,268 +464,116 @@ cd dealrescue-ai
 python -m venv .venv
 ```
 
-Activate it:
+Activate:
 
 ```powershell
 .\.venv\Scripts\Activate.ps1
 ```
 
-If your environment uses a `bin` directory:
+If your environment uses `bin`:
 
 ```powershell
 .\.venv\bin\activate
-```
 
----
 
 ## 3. Install dependencies
 
-```bash
+```powershell
 python -m pip install -r backend\requirements.txt
 ```
 
 ---
 
-# 🔐 Environment Configuration
+## 4. Configure Hindsight
 
-Create a `.env` file based on:
+Copy:
 
 ```text
 .env.example
 ```
 
-Configure the required Hindsight credentials.
+to:
 
-Example:
+```text
+.env
+```
+
+Add your Hindsight configuration.
 
 ```env
-HINDSIGHT_API_KEY=your_hindsight_api_key
+HINDSIGHT_API_KEY=your_api_key
 HINDSIGHT_BANK_ID=your_bank_id
 ```
 
-### Important
-
-Never commit your real `.env` file or API keys to GitHub.
-
-Only commit:
-
-```text
-.env.example
-```
+> ⚠️ **Never commit `.env` or real API keys to GitHub.**
 
 ---
 
-# ▶️ Run the Application
+## 5. Start the application
 
-Start the FastAPI server:
-
-```bash
+```powershell
 python -m uvicorn backend.main:app --host 127.0.0.1 --port 8000
 ```
 
 Open:
 
-```text
-http://127.0.0.1:8000/
-```
+**http://127.0.0.1:8000/**
 
-### API Health Check
+Health check:
 
-```text
-http://127.0.0.1:8000/api/health
-```
-
-A healthy configuration should report that the Hindsight integration is configured.
+**http://127.0.0.1:8000/api/health**
 
 ---
 
-# 🧪 Testing
+# 🔌 API
 
-The project includes automated validation scripts.
+| Endpoint | Description |
+|---|---|
+| `GET /api/health` | Health and Hindsight status |
+| `GET /api/deals` | Retrieve deals |
+| `POST /api/deals` | Create a new deal |
+| `GET /api/stats/{deal_id}` | Deal statistics |
+| `GET /api/learning/{deal_id}` | Learning timeline |
+| `GET /api/playbook/{deal_id}` | Winning / failed patterns |
+| `POST /api/recommend` | Generate next best action |
+| `POST /api/autopsy` | Record deal outcome |
+| `POST /api/learning-experiment` | Test memory-driven decision change |
+| `POST /api/seed` | Seed demonstration data |
+| `GET /api/memory-proof/{deal_id}` | Verify memory integration |
 
-Run the acceptance test:
+---
 
-```bash
+# 🧪 Validation
+
+The repository contains automated validation scripts.
+
+Run:
+
+```powershell
 python tests/full_acceptance_test.py
 ```
 
-Run visual validation:
+Visual validation:
 
-```bash
+```powershell
 python tests/visual_check.py
 ```
 
-Or run the complete validation:
+Complete validation:
 
-```bash
+```powershell
 python tests/run_full_validation.py
 ```
 
----
-
-# 🔌 API Endpoints
-
-| Endpoint | Purpose |
-|---|---|
-| `/api/health` | System and Hindsight health |
-| `/api/deals` | Create and retrieve deals |
-| `/api/stats/{deal_id}` | Deal memory statistics |
-| `/api/learning/{deal_id}` | Learning timeline |
-| `/api/playbook/{deal_id}` | Successful and failed patterns |
-| `/api/recommend` | Generate next best action |
-| `/api/autopsy` | Record deal outcome |
-| `/api/learning-experiment` | Compare decisions before/after memory |
-| `/api/seed` | Seed demonstration data |
-| `/api/memory-proof/{deal_id}` | Verify memory integration |
+The validation suite covers the major application flow, API availability, learning workflow and UI behavior.
 
 ---
 
-# 🧪 Example: Learning From Failure
+# 🎬 Demo Scenario
 
-Consider a customer who says:
+A simple demonstration:
 
-> "Your competitor is cheaper. Give us a discount."
-
-### Cold-start decision
-
-```text
-Explore a possible commercial concession.
-```
-
-### Hindsight recalls previous experience
-
-```text
-Previous action:
-Immediate discount
-
-Outcome:
-Failed / stalled
-
-Reason:
-Customer required stronger ROI evidence.
-```
-
-### Hindsight reflection
-
-```text
-Price was not the real decision driver.
-The buyer needed stronger business-value evidence.
-```
-
-### New decision
-
-```text
-Do not lead with a discount.
-
-Lead with:
-- measurable ROI
-- total cost of ownership
-- business outcomes
-- risk reduction
-```
-
-### Result
-
-The previous outcome has changed the next decision.
-
-That is the core demonstration of DealRescue.
-
----
-
-# 📊 Business Impact
-
-Traditional sales preparation can require reviewing:
-
-- CRM history
-- Previous emails
-- Meeting notes
-- Deal activity
-- Competitor information
-- Past objections
-
-This can take significant time.
-
-DealRescue compresses that process into:
-
-```text
-Current Situation
-       ↓
-Hindsight Recall
-       ↓
-Relevant Experience
-       ↓
-Reflection
-       ↓
-Next Best Action
-```
-
-### The goal
-
-**Turn accumulated sales experience into a decision in seconds.**
-
----
-
-# 🏆 Why DealRescue Is Different
-
-Most AI sales tools focus on:
-
-```text
-Generate → Respond
-```
-
-DealRescue focuses on:
-
-```text
-Experience → Recall → Reflect → Decide → Outcome → Learn
-```
-
-The system is designed around **experience-based decision intelligence**.
-
-It does not simply ask:
-
-> "What would an AI recommend?"
-
-It asks:
-
-> **"What happened before, what did we learn, and how should that change what we do now?"**
-
----
-
-# 🔬 Hindsight Integration
-
-Hindsight is not treated as a decorative feature.
-
-It is part of the core decision pipeline:
-
-```text
-Current Deal
-     ↓
-Hindsight Recall
-     ↓
-Relevant Experiences
-     ↓
-Hindsight Reflect
-     ↓
-Decision
-     ↓
-Outcome
-     ↓
-Hindsight Retain
-     ↓
-Future Recall
-```
-
-This creates a persistent learning system where previous deal outcomes can influence future decisions.
-
----
-
-# 🎬 Recommended Demo Flow
-
-For a live demonstration:
-
-### Step 1 — Create a deal
-
-Example:
+### Deal
 
 ```text
 Company:
@@ -681,169 +585,187 @@ Tata Analytics Deal
 Value:
 $150,000
 
-Stage:
-Discovery
-
 Owner:
 Alok
 ```
 
----
-
-### Step 2 — Add customer situation
+### Situation
 
 ```text
 The customer says the competitor is cheaper
 and is asking for a discount.
 ```
 
----
+### Initial Decision
 
-### Step 3 — Generate Next Best Action
+DealRescue evaluates the situation.
 
-Show the initial recommendation.
+### Hindsight Recall
 
----
-
-### Step 4 — Show Hindsight Memory
-
-Display relevant previous experiences, including:
+Previous experiences are retrieved:
 
 ```text
-Discount-first → Failed
-ROI framing → Worked
-TCO comparison → Worked
+Discount-first → FAILED
+ROI framing → WORKED
+TCO comparison → WORKED
 ```
 
----
+### Reflection
 
-### Step 5 — Run Learning Experiment
+Hindsight identifies that discounting did not solve the underlying buyer concern.
 
-Compare:
+### New Decision
 
 ```text
-BEFORE MEMORY
-       ↓
-HINDSIGHT RECALL
-       ↓
-HINDSIGHT REFLECT
-       ↓
-AFTER MEMORY
+Do not lead with a discount.
+
+Lead with measurable ROI,
+TCO and business outcomes.
 ```
 
-Show:
+### Outcome
 
-```text
-✓ HINDSIGHT LIVE
-✓ MEMORY RECALLED
-✓ REFLECT USED
-✓ DECISION CHANGED
-```
+The result can then be recorded and retained as a new experience.
 
 ---
 
-### Step 6 — Record Outcome
+# 🏆 Why This Matters
 
-Use Deal Autopsy to record what happened.
+DealRescue is built around a simple idea:
+
+> **Every sales outcome should make the next sales decision better.**
+
+A CRM can tell you:
+
+> What happened?
+
+DealRescue aims to answer:
+
+> **What should we do differently this time because of what happened before?**
 
 ---
 
-### Step 7 — Retain Experience
+# 🌍 Real-World Applications
 
-Store the new learning in Hindsight.
+The same architecture can be extended beyond sales.
 
----
+### Enterprise Sales
+Learn from previous negotiations and objections.
 
-### Step 8 — Recall Again
+### Customer Success
+Recall previous customer issues and successful resolutions.
 
-Run the same type of situation again and demonstrate that the newly retained experience can influence the future decision.
+### Support
+Reuse solutions from similar incidents.
+
+### Procurement
+Learn from previous supplier negotiations.
+
+### Business Development
+Use historical deal patterns to guide new opportunities.
 
 ---
 
 # 🚀 Future Roadmap
 
-Potential production extensions include:
-
-- CRM integrations
+- CRM integration
 - Salesforce integration
 - HubSpot integration
-- Microsoft Dynamics integration
 - Email and meeting intelligence
 - Automatic objection extraction
 - Competitor intelligence
-- Multi-agent sales workflows
+- Multi-agent workflows
 - Team-level experience sharing
-- Advanced analytics
 - Enterprise authentication
 - Role-based access control
 - Production database
 - Cloud deployment
-- Real-time deal monitoring
+- Advanced analytics
 
 ---
 
-# 🔒 Security
+# 🔐 Security
 
-Before publishing:
+For development:
 
-- Never commit API keys.
-- Never commit `.env`.
-- Use `.env.example` for configuration templates.
-- Rotate any API key that was accidentally exposed.
-- Use environment variables for production secrets.
+```text
+.env
+```
 
----
+should remain local.
 
-# 👥 Intended Users
+Only publish:
 
-DealRescue is designed for:
+```text
+.env.example
+```
 
-- Sales representatives
-- Account executives
-- Sales managers
-- Revenue teams
-- Customer success teams
-- Sales operations
-- Enterprise sales organizations
+Never expose:
 
----
+- API keys
+- Access tokens
+- Passwords
+- Private credentials
+- Production secrets
 
-# 🎯 Core Value Proposition
-
-> **DealRescue turns past sales outcomes into reusable decision intelligence.**
-
-Instead of repeatedly making decisions from scratch, sales teams can use accumulated experience to make better decisions on the next deal.
+If a secret is accidentally exposed, revoke and rotate it immediately.
 
 ---
 
-# 📜 License
+# 🎯 The Core Loop
 
-This project is developed as a hackathon prototype.
-
-See the repository for the applicable project and submission terms.
+```text
+                    ┌──────────────┐
+                    │    RECALL    │
+                    └──────┬───────┘
+                           ↓
+                    ┌──────────────┐
+                    │   REFLECT    │
+                    └──────┬───────┘
+                           ↓
+                    ┌──────────────┐
+                    │    DECIDE    │
+                    └──────┬───────┘
+                           ↓
+                    ┌──────────────┐
+                    │     ACT      │
+                    └──────┬───────┘
+                           ↓
+                    ┌──────────────┐
+                    │    RETAIN    │
+                    └──────┬───────┘
+                           │
+                           └───────────────┐
+                                           ↓
+                                      FUTURE DEAL
+                                           │
+                                           └──→ RECALL
+```
 
 ---
 
-# 👨‍💻 Project
+# 💬 One-Line Pitch
+
+> **DealRescue AI remembers what worked, learns from what failed, and uses that experience to make the next sales decision better.**
+
+---
+
+# 👨‍💻 Project Status
+
+**Status:** 🚀 Hackathon-ready prototype
+
+**Core capability:** Hindsight-powered sales experience memory
+
+**Architecture:** FastAPI + JavaScript + Hindsight
+
+**Primary focus:** Experience-based Deal Intelligence
+
+---
+
+## ⭐ If this project interests you
+
+Star the repository and explore how **AI memory can turn historical outcomes into better future decisions.**
 
 **DealRescue AI**
 
-**Core concept:**
-
-```text
-Past Experience
-      ↓
-Hindsight Memory
-      ↓
-Better Decision
-      ↓
-New Outcome
-      ↓
-New Experience
-      ↓
-Better Future Decision
-```
-
-### One-line pitch
-
-> **DealRescue AI remembers what worked, learns from what failed, and uses that experience to make the next sales decision better.**
+> **Don't just remember the deal. Learn from it.**
