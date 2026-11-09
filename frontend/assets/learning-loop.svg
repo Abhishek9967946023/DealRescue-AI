@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 520" fill="none">
+  <defs><linearGradient id="loop" x1="80" y1="350" x2="920" y2="140" gradientUnits="userSpaceOnUse"><stop stop-color="#9B62FF"/><stop offset=".48" stop-color="#38D9FF"/><stop offset="1" stop-color="#BAFF3E"/></linearGradient></defs>
+  <path d="M70 340C190 80 350 70 500 250S760 420 930 120" stroke="url(#loop)" stroke-width="4" stroke-linecap="round" stroke-dasharray="14 13"/>
+  <path d="M70 340C190 80 350 70 500 250S760 420 930 120" stroke="#38D9FF" stroke-opacity=".14" stroke-width="16" filter="blur(7px)"/>
+  <circle cx="70" cy="340" r="12" fill="#BAFF3E"/><circle cx="340" cy="116" r="12" fill="#BAFF3E"/><circle cx="620" cy="345" r="12" fill="#BAFF3E"/><circle cx="930" cy="120" r="12" fill="#BAFF3E"/>
+</svg>

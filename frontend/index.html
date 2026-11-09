@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#06070b">
+<title>DealRescue AI — The past changes the next decision</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="noise" aria-hidden="true"></div><div class="cursor-glow" aria-hidden="true"></div>
+<header class="site-nav">
+  <a href="#top" class="brand" aria-label="DealRescue AI home">
+    <span class="brand-symbol">D</span>
+    <span><b class="brand-name">DealRescue <em>AI</em></b><small>EXPERIENCE-LEARNING DEAL INTELLIGENCE</small></span>
+  </a>
+  <nav aria-label="Primary"><a href="#story">How it learns</a><a href="#decision-room">Decision room</a><a href="#experiment">Learning</a></nav>
+  <div class="nav-right"><span id="healthBadge" class="status-pill checking"><i></i> MEMORY CHECKING</span><button class="nav-cta" onclick="openDealModal()">New deal <span>↗</span></button></div>
+</header>
+
+<main id="top">
+<section class="hero scene reveal in-view">
+  <div class="hero-grid" aria-hidden="true"></div>
+  <div class="hero-copy">
+    <div class="eyebrow"><span class="live-dot"></span> EXPERIENCE-LEARNING ENGINE <span class="slash">/</span> 01</div>
+    <h1>Turn every deal<br>into <em>experience.</em></h1>
+    <p>DealRescue remembers what worked, what failed, and why — then lets the past change the next sales decision.</p>
+    <div class="hero-actions"><a class="magnetic primary-link" href="#story">Explore the learning loop <span>↓</span></a><span class="hero-caption">RECALL <i>→</i> REFLECT <i>→</i> DECIDE <i>→</i> RETAIN</span></div>
+  </div>
+  <div class="hero-art" data-parallax="0.035">
+    <div class="art-label">LIVE MEMORY FIELD <span>●</span></div>
+    <img class="field-svg" src="assets/memory-field.svg" alt="Abstract memory field">
+    <div class="floating-chip chip-a"><b>12</b><span>PAST OUTCOMES</span></div><div class="floating-chip chip-b"><b>04</b><span>LESSONS RETAINED</span></div><div class="floating-chip chip-c"><b>01</b><span>NEXT DECISION</span></div>
+  </div>
+  <div class="scroll-cue"><span>SCROLL TO MAKE IT LEARN</span><i></i></div>
+</section>
+
+<section class="statement scene reveal" id="story">
+  <div class="section-number">02 <span>THE IDEA</span></div>
+  <div class="statement-copy"><p class="eyebrow">THE PROBLEM WITH SALES AI</p><h2>Most AI knows <em>what</em> to say.<br><span>DealRescue knows what happened.</span></h2><p class="lead">Every stalled deal contains a lesson. Every win contains a pattern. DealRescue turns those outcomes into memory that actively changes the next move.</p></div>
+  <div class="story-lower">
+    <div class="quote-line"><span></span><p>“The best sales advice is often hidden inside your team's previous mistakes.”</p></div>
+    <aside class="story-proof">
+      <div class="proof-head"><span>WHAT GETS REMEMBERED</span><b>OUTCOME-BASED</b></div>
+      <div class="proof-row"><span>01</span><div><strong>Action</strong><small>What the seller actually tried</small></div><em>TRY</em></div>
+      <div class="proof-row"><span>02</span><div><strong>Context</strong><small>Customer signal, objection, stage</small></div><em>WHY</em></div>
+      <div class="proof-row"><span>03</span><div><strong>Outcome</strong><small>Worked, stalled, lost, progressed</small></div><em>RESULT</em></div>
+    </aside>
+    <div class="memory-timeline">
+      <div class="timeline-head"><span>THE DEAL'S MEMORY</span><b>EVERY OUTCOME BECOMES EVIDENCE</b></div>
+      <div class="timeline-track">
+        <div><i></i><span>DAY 07</span><strong>Security concern</strong><small>Evidence session → reduced risk</small></div>
+        <div><i></i><span>DAY 12</span><strong>Pricing objection</strong><small>Discount-first → stalled</small></div>
+        <div><i></i><span>DAY 18</span><strong>ROI discussion</strong><small>Value framing → progressed</small></div>
+        <div><i></i><span>DAY 24</span><strong>Competitor threat</strong><small>Feature attack → poorly received</small></div>
+        <div class="current"><i></i><span>TODAY</span><strong>Next decision</strong><small>Use the accumulated pattern</small></div>
+      </div>
+    </div>
+  </div>
+  <div class="hindsight-engine">
+    <article class="engine-card"><span class="step">01 / RETAIN</span><h3>Keep the experience.</h3><p>Store what happened, what the salesperson tried, and whether the deal moved forward.</p></article>
+    <article class="engine-card"><span class="step">02 / RECALL</span><h3>Bring back what matters.</h3><p>Find relevant successful and failed experiences for the current customer situation.</p></article>
+    <article class="engine-card"><span class="step">03 / REFLECT</span><h3>Turn memory into judgment.</h3><p>Compare outcomes and derive a strategy instead of repeating an old answer.</p></article>
+  </div>
+</section>
+
+<section class="loop-scene scene reveal" id="loop">
+  <div class="section-number">03 <span>THE LEARNING LOOP</span></div>
+  <div class="loop-layout">
+    <div class="loop-copy"><p class="eyebrow">MEMORY IS THE PRODUCT</p><h2>Recall.<br>Reflect.<br><em>Decide.</em><br>Retain.</h2><p class="loop-note">The product's core loop: past experience becomes evidence, evidence becomes a decision, and the outcome becomes new memory.</p></div>
+    <div class="loop-visual">
+      <svg class="loop-svg" viewBox="0 0 1000 560" preserveAspectRatio="none" aria-hidden="true">
+        <defs><linearGradient id="loopLive" x1="130" y1="420" x2="870" y2="140" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#9B62FF"/><stop offset=".48" stop-color="#38D9FF"/><stop offset="1" stop-color="#BAFF3E"/>
+        </linearGradient></defs>
+        <path class="loop-glow" d="M150 390 C220 100 780 100 850 390 C780 500 220 500 150 390 Z"/>
+        <path id="loopPath" class="loop-live-path" d="M150 390 C220 100 780 100 850 390 C780 500 220 500 150 390 Z"/>
+        <circle cx="150" cy="390" r="9"/><circle cx="320" cy="165" r="9"/><circle cx="680" cy="165" r="9"/><circle cx="850" cy="390" r="9"/>
+      </svg>
+      <div class="loop-node n-recall"><span>01</span><b>RECALL</b><small>Find relevant past experiences</small></div>
+      <div class="loop-node n-reflect"><span>02</span><b>REFLECT</b><small>Learn what worked — or didn't</small></div>
+      <div class="loop-node n-decide"><span>03</span><b>DECIDE</b><small>Choose the next best action</small></div>
+      <div class="loop-node n-retain"><span>04</span><b>RETAIN</b><small>Lock the lesson into memory</small></div>
+      <div class="loop-status"><span class="live-dot"></span><b>LIVE MEMORY LOOP</b><small>RECALL → REFLECT → DECIDE → RETAIN → RECALL</small></div>
+    </div>
+  </div>
+</section>
+
+<section class="deal-reveal scene reveal" id="decision">
+  <div class="section-number">04 <span>THE DEAL WORKSPACE</span></div>
+  <div class="deal-intro"><p class="eyebrow">NOW THE MEMORY MEETS REALITY</p><h2>Meet the deal<br><em>in motion.</em></h2><p>One active enterprise deal. One customer signal. A memory layer deciding what deserves to happen next.</p></div>
+  <div class="deal-stage" data-parallax="0.025">
+    <div class="deal-card-main glass">
+      <div class="deal-top"><span class="deal-status"><i></i> ACTIVE DEAL</span><span>NEGOTIATION / 04</span></div>
+      <div class="company-mark" id="companyMark">N</div><div class="deal-name" id="dealName">Enterprise Revenue Intelligence</div><div class="deal-company" id="dealCompany">Northstar Analytics</div><div class="deal-value" id="dealMeta">$185,000</div>
+      <div class="deal-context"><span id="dealStage">NEGOTIATION</span><span id="dealOwner">SALES REP</span></div><p id="dealSummary">Enterprise analytics deal. Current concerns: price, Competitor X and implementation risk.</p>
+      <div class="deal-bottom"><span>PRICE PRESSURE</span><span>COMPETITOR THREAT</span><span>HIGH VALUE</span></div>
+      <div class="deal-actions">
+        <button class="mini-btn" onclick="seedExperiences()">Load 12 demo experiences</button>
+        <button class="mini-btn ghost" onclick="openDealModal()">Create another deal</button>
+      </div>
+    </div>
+    <div class="memory-stack"><div class="memory-card back"></div><div class="memory-card mid"></div><div class="memory-card front"><div class="memory-head"><span>HINDSIGHT MEMORY</span><b>03 LESSONS</b></div><div class="memory-row success"><i>✓</i><span>ROI framing</span><em>worked</em></div><div class="memory-row failure"><i>×</i><span>Discount-first</span><em>stalled</em></div><div class="memory-row success"><i>✓</i><span>TCO comparison</span><em>worked</em></div></div></div>
+  </div>
+</section>
+
+<section class="decision-room scene reveal" id="decision-room">
+  <div class="section-number">05 <span>THE DECISION</span></div>
+  <div class="decision-copy"><p class="eyebrow">CUSTOMER SIGNAL</p><h2>“Your price is too high.<br>Competitor X is cheaper.”</h2><p>Same objection. Different memory. Watch the recommendation form from experience.</p></div>
+  <div class="decision-ui glass"><div class="decision-ui-head"><span>05 / DECISION ENGINE</span><span id="sourceBadge" class="source-badge">MEMORY EVIDENCE</span></div><textarea id="situation" rows="4">The customer says our price is too high. They are comparing us with Competitor X and want a discount before tomorrow's meeting.</textarea><button class="decision-btn magnetic" onclick="generate()">Generate next best action <span>→</span></button><div id="recommendation" class="recommendation empty">Run the decision engine to see evidence-backed guidance.</div><div id="memoryProof" class="hindsight-proof"></div></div>
+</section>
+
+<section class="memory-section scene reveal" id="memory">
+  <div class="section-number">06 <span>WHY THE DECISION CHANGED</span></div>
+  <div class="memory-copy"><p class="eyebrow">MEMORY EVIDENCE</p><h2>The agent doesn't guess.<br>It <em>remembers.</em></h2><p>Past experiences become constraints, signals and evidence for today's decision.</p><div class="rule-list"><div><b>01</b><span>Discount-first</span><em>→ failed</em></div><div><b>02</b><span>ROI framing</span><em>→ progressed</em></div><div><b>03</b><span>TCO comparison</span><em>→ progressed</em></div></div></div>
+  <div class="memory-orbit"><img src="assets/memory-evidence.svg" alt="Memory evidence network"><div class="memory-core">HINDSIGHT<br><b id="memoryCount">03</b><small>relevant experiences</small></div><div class="orbit-tag tag-a">FAILED TACTIC</div><div class="orbit-tag tag-b">WORKED</div><div class="orbit-tag tag-c">NEW LESSON</div></div>
+  <div class="memory-evidence-panel"><div class="evidence-head"><span>LIVE EXPERIENCE EVIDENCE</span><b id="evidenceMeta">3 RELEVANT EXPERIENCES</b></div><div id="memories" class="memory-evidence-list"><div class="memory-evidence positive"><div class="memory-top"><span>MEMORY 01</span><em>WORKED</em></div><p>ROI framing progressed a similar enterprise deal without leading with a discount.</p></div><div class="memory-evidence negative"><div class="memory-top"><span>MEMORY 02</span><em>FAILED</em></div><p>Discount-first negotiation stalled when procurement compared price before value.</p></div><div class="memory-evidence positive"><div class="memory-top"><span>MEMORY 03</span><em>WORKED</em></div><p>TCO comparison shifted the conversation from license price to total business impact.</p></div></div></div>
+</section>
+
+<section class="experiment scene reveal" id="experiment">
+  <div class="section-number">07 <span>THE SIGNATURE MOMENT</span></div>
+  <div class="experiment-head"><div><p class="eyebrow">07 / LEARNING EXPERIMENT</p><h2>Watch the past<br><em>change the future.</em></h2><p>One failed action becomes memory. The same situation comes back. The decision is different.</p></div><button class="experiment-btn magnetic" onclick="runLearningExperiment()"><span>▶</span> Run learning experiment</button></div>
+  <div id="experimentPanel" class="experiment-panel">
+    <div class="before-after-demo"><div class="demo-card before"><span>BEFORE MEMORY</span><h3>Offer a discount.</h3><b>✕ GENERIC / COLD START</b></div><div class="transform-arrow">→</div><div class="demo-card after"><span>AFTER HINDSIGHT</span><h3>Focus on ROI + TCO.</h3><b>✓ EXPERIENCE-BACKED</b></div></div>
+    <div class="memory-chain"><span>RETAIN</span><i>→</i><span>HINDSIGHT RECALL</span><i>→</i><span>REFLECT</span><i>→</i><span>NEW DECISION</span></div>
+  </div>
+</section>
+
+<section class="autopsy scene reveal">
+  <div class="section-number">08 <span>RETAIN THE LESSON</span></div>
+  <div class="autopsy-left"><p class="eyebrow">08 / DEAL AUTOPSY</p><h2>Don't let a lesson<br><em>leave the room.</em></h2><p>Capture what happened. Hindsight turns the outcome into experience for the next deal.</p><div class="autopsy-flow"><span>OUTCOME</span><i>→</i><span>LESSON</span><i>→</i><span>MEMORY</span></div></div>
+  <div class="autopsy-form glass"><input id="autopsyTitle" placeholder="Experience title · e.g. Discount-first negotiation"><textarea id="autopsyContent" rows="4" placeholder="What happened? What should the agent remember next time?"></textarea><div class="form-row"><select id="autopsyOutcome"><option value="Failed / stalled">Failed / stalled</option><option value="Worked / progressed">Worked / progressed</option><option value="Won">Won</option></select><button class="decision-btn magnetic" onclick="retainAutopsy()">Retain experience <span>↗</span></button></div></div>
+</section>
+
+<section class="final scene reveal"><div class="final-glow"></div><p class="eyebrow">09 / THE DEALRESCUE PROMISE</p><h2>It didn't just remember<br>the past.</h2><h3><em>The past changed its next decision.</em></h3><div class="final-path"><span>PAST</span><i>→</i><span>MEMORY</span><i>→</i><span>ACTION</span><i>→</i><span>OUTCOME</span><i>→</i><span>LEARNING</span></div><a class="final-cta magnetic" href="#top">Run it again <span>↑</span></a></section>
+</main>
+
+<div id="toast" class="toast"></div>
+<div id="modal" class="modal hidden"><div class="modal-card"><div class="modal-head"><span class="eyebrow">DEAL WORKSPACE</span><button class="icon-btn" onclick="closeDealModal()">×</button></div><h2>Create a new deal</h2><input id="dName" placeholder="Deal name"><input id="dCompany" placeholder="Company"><input id="dValue" type="number" placeholder="Deal value"><select id="dStage"><option>Discovery</option><option>Qualification</option><option>Demo</option><option>Negotiation</option><option>Procurement</option><option>Closed</option></select><input id="dOwner" placeholder="Owner" value="Sales Rep"><textarea id="dSummary" rows="3" placeholder="Deal summary"></textarea><button class="decision-btn" onclick="createDeal()">Create deal <span>→</span></button></div></div>
+<script src="app.js"></script>
+</body>
+</html>
